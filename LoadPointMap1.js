@@ -14,7 +14,7 @@ Ext.define('Ext.ux.LeafletMapView', {
             this.update('No leaflet library loaded');
         } else {
             var map = L.map(this.getId());
-            map.setView([39.92, 116.22], 13);
+            map.setView([30.52351, 121.50815], 8);
             map.on('contextmenu', function (e) {
             });
             this.setMap(map);
