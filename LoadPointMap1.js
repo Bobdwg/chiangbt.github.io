@@ -14,7 +14,7 @@ Ext.define('Ext.ux.LeafletMapView', {
             this.update('No leaflet library loaded');
         } else {
             var map = L.map(this.getId());
-            map.setView([30.52351, 121.50815], 8);
+            map.setView([40.02997, 116.29832], 14);
             map.on('contextmenu', function (e) {
             });
             this.setMap(map);
@@ -23,16 +23,13 @@ Ext.define('Ext.ux.LeafletMapView', {
                 stopFollowingOnDrag: true
             }).addTo(map);
             //加载google底图
-//            map.tileLayer = L.tileLayer('https://mts{s}.google.com/vt/lyrs=m@203000000&hl=zh&src=app&x={x}&y={y}&z={z}&s=Galile', {
-//                subdomains: '0123'
-//            }).addTo(map);
             map.tileLayer = L.tileLayer('http://webrd04.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}', {
                 subdomains: '0123'
             }).addTo(map);
             //-----------------------------------
             //热力图类heatMap
             var heatmapLayer = L.TileLayer.heatMap({
-                radius: 8,
+                radius: 18,
                 // radius could be absolute or relative
                 // absolute: radius in meters, relative: radius in pixels
                 //radius: { value: 15000, absolute: true },
@@ -55,7 +52,7 @@ Ext.define('Ext.ux.LeafletMapView', {
             //新建一个点聚类Group
             var markers = L.markerClusterGroup({
                 spiderfyOnMaxZoom: false,
-                disableClusteringAtZoom: 18,
+                disableClusteringAtZoom: 16,
                 polygonOptions: {
                     color: "#2d84c8",
                     weight: 4,
