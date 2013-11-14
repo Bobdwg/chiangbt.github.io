@@ -91,7 +91,12 @@ Ext.define('Ext.ux.LeafletMapView', {
                 });
                 //绑定tooltip
                 var tooltip = a['BusinessName'] + '<br>总星数' + a['Stars']['All'] + ': 1星数' + a['Stars']['1s'] +
-                    ' 2星数' + a['Stars']['2s'] + ' 3星数' + a['Stars']['3s'] + '<br>地址：' + a['Address'] + '<br>点评:<br>1.'
+                    ' 2星数' + a['Stars']['2s'] + ' 3星数' + a['Stars']['3s'] + '<br>地址：' + a['Address'] + '<br>点评:<br>1.';
+                if(int(a['comments']['comments_count']>0)) {
+                    tooltip += a['comments']['items'][0];
+                }else{
+                    tooltip += '空';
+                }
                 marker.bindPopup(tooltip);
                 markers.addLayer(marker);
             }
