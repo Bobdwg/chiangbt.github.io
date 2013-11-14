@@ -29,7 +29,7 @@ Ext.define('Ext.ux.LeafletMapView', {
             //-----------------------------------
             //热力图类heatMap
             var heatmapLayer = L.TileLayer.heatMap({
-                radius: 18,
+                radius: 14,
                 // radius could be absolute or relative
                 // absolute: radius in meters, relative: radius in pixels
                 //radius: { value: 15000, absolute: true },
@@ -91,7 +91,7 @@ Ext.define('Ext.ux.LeafletMapView', {
                 });
                 //绑定tooltip
                 var tooltip = a['BusinessName'] + '<br>总星数' + a['Stars']['All'] + ': 1星数' + a['Stars']['1s'] +
-                    ' 2星数' + a['Stars']['2s'] + ' 3星数' + a['Stars']['3s'] + '<br>地址：' + a['Address'] + '<br>点评:<br>1.' + a['comments']['items'][0]
+                    ' 2星数' + a['Stars']['2s'] + ' 3星数' + a['Stars']['3s'] + '<br>地址：' + a['Address'] + '<br>点评:<br>1.'
                 marker.bindPopup(tooltip);
                 markers.addLayer(marker);
             }
