@@ -6,7 +6,7 @@
     </list>
     <ignored path="chiangbt.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384421774320" ignored="false" />
+    <file path="/Dummy.txt" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384421917492" ignored="false" />
     <file path="/index.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384135476719" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/data/dp/dp_comment_.dat" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384415743595" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/data/dp/dp_shops_美食.dat" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384415561940" ignored="false" />
@@ -43,7 +43,7 @@
       <file leaf-file-name="LoadPointMap1.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LoadPointMap1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="64" selection-start="4059" selection-end="4059" vertical-scroll-proportion="0.5660377">
+            <state line="72" column="15" selection-start="2659" selection-end="2659" vertical-scroll-proportion="0.047169812">
               <folding />
             </state>
           </provider>
@@ -257,7 +257,11 @@
       <created>1384421776697</created>
       <updated>1384421776697</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="test1">
+      <created>1384421919694</created>
+      <updated>1384421919694</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -442,13 +446,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="49" selection-start="2570" selection-end="2570" vertical-scroll-proportion="-5.5833335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dp.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state line="817" column="339" selection-start="341270" selection-end="341284" vertical-scroll-proportion="-17.703703">
@@ -459,9 +456,16 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="49" selection-start="2570" selection-end="2570" vertical-scroll-proportion="-5.5833335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LoadPointMap1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="64" selection-start="4059" selection-end="4059" vertical-scroll-proportion="0.5660377">
+        <state line="72" column="15" selection-start="2659" selection-end="2659" vertical-scroll-proportion="0.047169812">
           <folding />
         </state>
       </provider>
