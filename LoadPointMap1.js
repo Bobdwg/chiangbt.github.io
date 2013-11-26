@@ -47,12 +47,10 @@ Ext.define('Ext.ux.LeafletMapView', {
                     title: 'legend'
                 }
             });
-            heatmapLayer.addData(dp);
-            heatmapLayer.addTo(map);
             //新建一个点聚类Group
             var markers = L.markerClusterGroup({
                 spiderfyOnMaxZoom: false,
-                disableClusteringAtZoom: 16,
+                disableClusteringAtZoom: 12,
                 polygonOptions: {
                     color: "#2d84c8",
                     weight: 4,
@@ -71,36 +69,59 @@ Ext.define('Ext.ux.LeafletMapView', {
                     });
                 }
             });
-            //采用了awesome插件的多符号Marker
-            var colors = ['red', 'blue', 'green', 'purple', 'orange', 'darkred', 'darkblue', 'darkgreen', 'cadetblue', 'darkpurple'];
-            var awesomeIcons = ['font', 'cloud-download', 'medkit', 'github-alt', 'coffee', 'food', 'bell-alt', 'question-sign', 'star'];
-            for (var i = 0; i < dp.length; i++) {
-                var color = colors[Math.floor(Math.random() * colors.length)];
-                //var awesomeIcon = awesomeIcons[Math.floor(Math.random() * awesomeIcons.length)];
-                var awesomeIcon = awesomeIcons[5];
-                var a = dp[i];
-                var title = a['BusinessName'];
-                //这里的icon没有采用原生的baseballIcon而是换成了L.AwesomeMarkers.icon对象
-                var marker = L.marker(new L.LatLng(a['lat'], a['lng']), {
-                    value: parseInt(a['Stars']['All']),
-                    title: title,
-                    icon: L.AwesomeMarkers.icon({
-                        icon: awesomeIcon,
-                        color: color
-                    })
-                });
-                //绑定tooltip
-                var tooltip = a['BusinessName'] + '<br>总星数' + a['Stars']['All'] + ': 1星数' + a['Stars']['1s'] +
-                    ' 2星数' + a['Stars']['2s'] + ' 3星数' + a['Stars']['3s'] + '<br>地址：' + a['Address'] + '<br>点评:<br>1.';
-                if(parseInt(a['comments']['comments_count'])>0) {
-                    tooltip += a['comments']['items'][0];
-                }else{
-                    tooltip += '空';
-                }
-                marker.bindPopup(tooltip);
-                markers.addLayer(marker);
-            }
+            Ext.Ajax.request({
+				url : 'http://localhost:3000/SNSShop/BusinessSubtype/自助餐',
+				method : 'GET',
+				success : function(resp, opts) {
+					var respText = Ext.JSON.decode(resp.responseText);
+
+					heatmapLayer.addData(respText.features);
+					heatmapLayer.redraw();
+
+					// 点聚类
+					var ms = [];
+                    //采用了awesome插件的多符号Marker
+                    var colors = ['red', 'blue', 'green', 'purple', 'orange', 'darkred', 'darkblue', 'darkgreen', 'cadetblue', 'darkpurple'];
+                    var awesomeIcons = ['font', 'cloud-download', 'medkit', 'github-alt', 'coffee', 'food', 'bell-alt', 'question-sign', 'star'];
+					for (var i = 0; i < respText.features.length; i++) {
+						var a = respText.features[i];
+                        var awesomeIcon = awesomeIcons[5];
+                        var color = colors[Math.floor(Math.random() * colors.length)];
+						var m = new L.Marker(new L.LatLng(a["lat"], a["lng"]), {
+							value: parseInt(a['avg_rating']),
+                            title: 'ss',
+                            icon: L.AwesomeMarkers.icon({
+                                icon: awesomeIcon,
+                                color: color
+                            })
+						});
+						var popupText = "<div style=' max-height:250px;'>";
+						popupText += "<b>设施名称</b>: " + a["BusinessName"] + "<br>";
+						popupText += "<b>地址</b>: " + a["Address"]+ "<br>";
+						popupText += "<b>评分</b>: " + a["avg_rating"]+ "<br>";
+						popupText += "<b>设施类型</b>: " + a["BusinessSubtype"]+ "<br>";
+                        popupText += "<b>电话</b>: " + a["tel"]+ "<br>";
+						popupText += "</div>";
+						m.bindPopup(popupText);
+						ms.push(m);
+						//markers.addLayer(m);
+                        var circle = L.circle([a["lat"], a["lng"]], 500, {
+                            color: 'red',
+                            fillColor: '#f03',
+                            fillOpacity: 0.3
+                        }).addTo(map);
+					}
+					markers.addLayers(ms);
+
+				},
+				failure : function(resp, opts) {
+					//alert(resp.responseText);
+				}
+			});
+            heatmapLayer.addTo(map);
             map.addLayer(markers);
+
+            drawChart();
         }
     },
     onResize: function (w, h, oW, oH) {

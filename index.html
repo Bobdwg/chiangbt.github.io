@@ -17,12 +17,11 @@
         <script type="text/javascript" src="lib/heatmap/heatmap.js"></script>
         <script type="text/javascript" src="lib/heatmap/heatmap-leaflet.js"></script>
 		<script src="lib/api.js"></script>
-		
+		<script src="lib/echarts/esl.js"></script>
+        <script src="echarts.js"></script>
 		<script src="LoadPointMap1.js"></script>
-		<!------------------------------------------->
-        <script src="dp.dat"></script>
-		<!------------------------------------------->
 		<script type="text/javascript">
+
 			Ext.Loader.setConfig({
 				enabled : true,
 				paths : {
@@ -30,7 +29,14 @@
 				}
 			});
 
-			Ext.require(['Ext.ux.LeafletMapView']);
+            Ext.require(['Ext.ux.LeafletMapView']);
+            require.config({
+                paths:{
+                    echarts:'lib/echarts/echarts',
+                    'echarts/chart/bar':'lib/echarts/echarts',
+                    'echarts/chart/line':'lib/echarts/echarts'
+                }
+            });
 			Ext.onReady(function() {
 				Ext.QuickTips.init();
 
@@ -57,16 +63,23 @@
 						xtype : 'container',
 						region : 'center',
 						layout : 'border',
-
 						items : [{
-							xtype : 'tabpanel',
-							activeTab : 0,
+							xtype : 'container',
 							region : 'center',
 							//margins : '0 5 0 0',
+                            layout : 'border',
 							items : [{
+                                region : 'center',
 								xtype : 'leafletmapview',
 								title : 'SNS用户分布地图[数据]'
-							}]
+							},{
+                                region : 'south',
+                                xtype : 'panel',
+                                title :'信息图表',
+                                collapsible : true,
+                                height :300,
+                                html:'<div id=  "chartArea"   style=  "height:300px;border:1px solid #ccc;padding:10px;"  ></div>'
+                            }]
 
 						}, {
 							region : 'west',
@@ -78,14 +91,7 @@
 							minWidth : 200,
 							maxWidth : 300,
 							collapsible : true,
-							animCollapse : true,
-							//margins : '0 0 0 5',
-							layout : 'accordion',
-							items : [{
-								contentEl : 'west',
-								title : '地图说明',
-								iconCls : 'street' // see the HEAD section for style used
-							}]
+							animCollapse : true
 						}]
 					}]
 				});
@@ -98,6 +104,7 @@
 			<p>
 				将点评网的数据进行抓录，然后通过leaflet展示
 				<br>
+
 				<br>
 			</p>
 		</div>
