@@ -2,50 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bccbb55-d5e4-498b-aa1f-8546b834adfd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/animation/animation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/tool/area.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/shape/base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/shape/beziercurve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/shape/brokenLine.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/shape/circle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/animation/clip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/tool/color.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/shape/droplet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/animation/easing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echarts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echarts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/shape/ellipse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/tool/event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/lib/excanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/shape/heart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/shape/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/shape/isogon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/shape/line.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/tool/loadingEffect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/tool/math.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/tool/matrix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/shape/path.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/shape/polygon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/shape/rectangle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/shape/ring.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/shape/rose.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/shape/sector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/shape.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/shape/star.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/shape/text.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/shape/trochoid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/tool/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/tool/vector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/echarts/zrender/zrender.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LoadPointMap1.js" afterPath="$PROJECT_DIR$/LoadPointMap1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dp.dat" afterPath="$PROJECT_DIR$/dp.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chiangbt.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385453747199" ignored="false" />
+    <file path="/Dummy.txt" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385453762259" ignored="false" />
     <file path="/index.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384777784916" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/data/dp/dp_comment_.dat" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384415743595" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/data/dp/dp_shops_美食.dat" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384415561940" ignored="false" />
@@ -71,7 +32,19 @@
     <favorites_list name="chiangbt.github.io" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="48" selection-start="1190" selection-end="1190" vertical-scroll-proportion="-2.2813299">
+              <folding>
+                <marker date="1384777794000" expanded="false" signature="2835:2883" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -101,8 +74,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="104" />
-    <option name="y" value="38" />
+    <option name="x" value="142" />
+    <option name="y" value="51" />
     <option name="width" value="1420" />
     <option name="height" value="780" />
   </component>
@@ -147,20 +120,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="chiangbt.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chiangbt.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chiangbt.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -305,7 +264,11 @@
       <created>1384422291748</created>
       <updated>1384422291748</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="test1">
+      <created>1385453766188</created>
+      <updated>1385453766188</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -329,14 +292,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="104" y="38" width="1420" height="780" extended-state="0" />
+    <frame x="142" y="51" width="1420" height="780" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32930514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287879" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33030304" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24910523" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17540029" sideWeight="0.6706949" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17540029" sideWeight="0.67121214" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -346,7 +310,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -417,7 +380,9 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1384777794000" expanded="false" signature="2835:2883" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -432,35 +397,45 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1384777794000" expanded="false" signature="2835:2883" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1384777794000" expanded="false" signature="2835:2883" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1384777794000" expanded="false" signature="2835:2883" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1384777794000" expanded="false" signature="2835:2883" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1384777794000" expanded="false" signature="2835:2883" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -485,13 +460,6 @@
     <entry file="file://$PROJECT_DIR$/lib/echarts/echarts-map.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="3" selection-start="799" selection-end="799" vertical-scroll-proportion="0.5072464" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="48" selection-start="1190" selection-end="1190" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/echarts.js">
@@ -524,6 +492,15 @@
             <element signature="e#809#4177#0" expanded="false" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="48" selection-start="1190" selection-end="1190" vertical-scroll-proportion="-2.2813299">
+          <folding>
+            <marker date="1384777794000" expanded="false" signature="2835:2883" placeholder="..." />
           </folding>
         </state>
       </provider>
