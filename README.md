@@ -4,3 +4,11 @@ chiangbt.github.io
 ```javascript
 echarts.html  展示ECharts的代码
 ```
+```javascript
+    几个重要地图数据源
+    地震图 http://{s}.tiles.mapbox.com/v3/bclc-apec.map-rslgvy56/{z}/{x}/{y}.png
+    OSM http://{s}.tile.osm.org/{z}/{x}/{y}.png
+    高德  http://webrd04.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}
+    Cloudmate   http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{z}/{x}/{y}.png   [注意设置key和styleId]
+    Mapbox  http://{s}.tiles.mapbox.com/v3/openplans.map-g4j0dszr/{z}/{x}/{y}.png
+```
