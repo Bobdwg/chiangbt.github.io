@@ -2,22 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bccbb55-d5e4-498b-aa1f-8546b834adfd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/score.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/years.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/echarts.html" afterPath="$PROJECT_DIR$/echarts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appjs/echarts.js" afterPath="$PROJECT_DIR$/appjs/echarts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chiangbt.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385458910538" ignored="false" />
+    <file path="/Dummy.txt" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385606252213" ignored="false" />
     <file path="/index.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384777784916" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/data/dp/dp_comment_.dat" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384415743595" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/data/dp/dp_shops_美食.dat" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384415561940" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/hmgis/InfoRetrieval/dianping/dianpingService2.py" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384414585340" ignored="false" />
     <file path="/LoadPointMap1.js" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384522927758" ignored="false" />
-    <file path="/echarts.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385456847168" ignored="false" />
-    <file path="/echarts.js" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384777823139" ignored="false" />
+    <file path="/echarts.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385606460996" ignored="false" />
+    <file path="/echarts.js" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385606507800" ignored="false" />
     <file path="/Landblock.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385457556787" ignored="false" />
-    <file path="/README.md" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385459278478" ignored="false" />
+    <file path="/README.md" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385459586544" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/LeafletMap/lib/map/ESRIDynamicMap5.js" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385459341297" ignored="false" />
+    <file path="/years.js" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385607287455" ignored="false" />
+    <file path="$USER_HOME$/PycharmProjects/MLinaction/pythonTest.py" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385607295632" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,19 +43,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Landblock.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Landblock.html">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="52" selection-start="654" selection-end="654" vertical-scroll-proportion="0.44444445">
+            <state line="6" column="16" selection-start="265" selection-end="265" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="echarts.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/appjs/echarts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="102" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0">
+            <state line="23" column="89" selection-start="683" selection-end="683" vertical-scroll-proportion="0.4676259">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="years.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/years.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1313" column="8" selection-start="13539" selection-end="13539" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="echarts.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/echarts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="32" selection-start="258" selection-end="258" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
@@ -79,16 +103,19 @@
         <option value="$PROJECT_DIR$/dp.dat" />
         <option value="$PROJECT_DIR$/LoadPointMap1.js" />
         <option value="$PROJECT_DIR$/echarts.js" />
-        <option value="$PROJECT_DIR$/echarts.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Landblock.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/data/score.csv" />
+        <option value="$PROJECT_DIR$/echarts.html" />
+        <option value="$PROJECT_DIR$/data/years.js" />
+        <option value="$PROJECT_DIR$/appjs/echarts.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="131" />
-    <option name="y" value="77" />
+    <option name="x" value="66" />
+    <option name="y" value="81" />
     <option name="width" value="1420" />
     <option name="height" value="780" />
   </component>
@@ -146,20 +173,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chiangbt.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chiangbt.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -184,6 +197,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Console.TableResult.DefaultCopyAction" value="SQL Insert Statements" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="preferences.sourceCode.Python" />
@@ -194,13 +208,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/lib/echarts" />
       <recent name="$PROJECT_DIR$/lib/heatmap" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/appjs" />
       <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/appjs" />
       <recent name="$PROJECT_DIR$/lib/echarts" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$" />
@@ -345,7 +360,11 @@
       <created>1385458913293</created>
       <updated>1385458913293</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="test1">
+      <created>1385459358743</created>
+      <updated>1385459358743</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -369,15 +388,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="131" y="77" width="1420" height="780" extended-state="0" />
+    <frame x="66" y="81" width="1420" height="780" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287879" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32779455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33030304" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24910523" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17540029" sideWeight="0.67121214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1812227" sideWeight="0.67220545" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -387,6 +405,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -457,45 +476,21 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1385457187000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1385457187000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1385457187000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1385457187000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1385457187000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -509,14 +504,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/dp.dat">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="266" selection-start="62505" selection-end="62509" vertical-scroll-proportion="0.025252525" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/echarts/echarts-map.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="3" selection-start="799" selection-end="799" vertical-scroll-proportion="0.5072464" />
@@ -524,56 +511,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/echarts/zrender/lib/excanvas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Landblock.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="52" selection-start="654" selection-end="654" vertical-scroll-proportion="-7.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/dp.dat">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="266" selection-start="62505" selection-end="62509" vertical-scroll-proportion="0.04" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appjs/LoadPointMap1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="41" selection-start="657" selection-end="657" vertical-scroll-proportion="-2.060241">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appjs/echarts.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="10" selection-start="361" selection-end="361" vertical-scroll-proportion="0.5421687">
+        <state line="11" column="101" selection-start="377" selection-end="377" vertical-scroll-proportion="0.39759037" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="16" selection-start="265" selection-end="265" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/score.csv">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="90" selection-start="11" selection-end="90" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/echarts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="72" selection-start="65" selection-end="133" vertical-scroll-proportion="0.15345268">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appjs/LoadPointMap1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="41" selection-start="657" selection-end="657" vertical-scroll-proportion="0.61445785">
-          <folding>
-            <marker date="1384777860000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="78" selection-start="538" selection-end="694" vertical-scroll-proportion="-3.0690536">
-          <folding>
-            <marker date="1385457187000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="102" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0">
+        <state line="7" column="32" selection-start="258" selection-end="258" vertical-scroll-proportion="-4.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Landblock.html">
+    <entry file="file://$PROJECT_DIR$/data/years.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="52" selection-start="654" selection-end="654" vertical-scroll-proportion="0.44444445">
+        <state line="1313" column="8" selection-start="13539" selection-end="13539" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appjs/echarts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="89" selection-start="683" selection-end="683" vertical-scroll-proportion="0.4676259">
           <folding />
         </state>
       </provider>

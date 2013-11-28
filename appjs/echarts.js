@@ -21,7 +21,7 @@ function drawChart() {
                     trigger: 'axis'
                 },
                 legend: {
-                    data: [  '蒸发量'  , '降水量'  ]
+                    data: [  '婚庆'  , '美食','汽车','丽人','亲子','休闲娱乐'  , '商业设施','生活设施','运动','酒店'  ]
                 },
                 toolbox: {
                     show: true,
@@ -54,7 +54,8 @@ function drawChart() {
                 xAxis: [
                     {
                         type: 'category',
-                        data: [  '1月'  , '2月'  , '3月'  , '4月'  , '5月'  , '6月'  , '7月'  , '8月'  , '9月'  , '10月'  , '11月'  , '12月'  ]
+//                        data: [  '1月'  , '2月'  , '3月'  , '4月'  , '5月'  , '6月'  , '7月'  , '8月'  , '9月'  , '10月'  , '11月'  , '12月'  ]
+                        data: years
                     }
                 ],
                 yAxis: [
@@ -65,43 +66,76 @@ function drawChart() {
                 ],
                 series: [
                     {
-                        name: '蒸发量',
+                        name: '婚庆',
                         type: 'bar',
                         smooth: true,
-                        itemStyle: {normal: {areaStyle: {type: 'default'}}},
-                        data: [  2.0  , 4.9  , 7.0  , 23.2  , 25.6  , 76.7  , 135.6  , 162.2  , 32.6  , 20.0  , 6.4  , 3.3  ]
+//                        itemStyle: {normal: {areaStyle: {type: 'default'}}},
+//                        data: [  2.0  , 4.9  , 7.0  , 23.2  , 25.6  , 76.7  , 135.6  , 162.2  , 32.6  , 20.0  , 6.4  , 3.3  ]
+                        data:score1
                     },
-                    {
-                        name: '降水量',
+                     {
+                        name: '美食',
                         type: 'bar',
                         smooth: true,
-                        itemStyle: {normal: {areaStyle: {type: 'default'}}},
-                        data: [  2.6  , 5.9  , 9.0  , 26.4  , 28.7  , 70.7  , 175.6  , 182.2  , 48.7  , 18.8  , 6.0  , 2.3  ]
+//                        itemStyle: {normal: {areaStyle: {type: 'default'}}},
+                        data:score2
                     },
-                    {
-                        name: '搜索引擎细分',
-                        type: 'pie',
-                        tooltip: {
-                            trigger: 'item',
-                            formatter: '{a} <br/>{b} : {c} ({d}%)'
-                        },
-                        center: [180, 160],
-                        radius: [0, 50],
-                        itemStyle: {
-                            normal: {
-                                labelLine: {
-                                    length: 20
-                                }
-                            }
-                        },
-                        data: [
-                            {value: 1048, name: '百度'},
-                            {value: 251, name: '谷歌'},
-                            {value: 147, name: '必应'},
-                            {value: 102, name: '其他'}
-                        ]
+                     {
+                        name: '汽车',
+                        type: 'bar',
+                        smooth: true,
+//                        itemStyle: {normal: {areaStyle: {type: 'default'}}},
+                        data:score3
+                    },
+                     {
+                        name: '丽人',
+                        type: 'bar',
+                        smooth: true,
+//                        itemStyle: {normal: {areaStyle: {type: 'default'}}},
+                        data:score4
+                    },
+                     {
+                        name: '亲子',
+                        type: 'bar',
+                        smooth: true,
+//                        itemStyle: {normal: {areaStyle: {type: 'default'}}},
+                        data:score5
+                    },
+                     {
+                        name: '休闲娱乐',
+                        type: 'bar',
+                        smooth: true,
+//                        itemStyle: {normal: {areaStyle: {type: 'default'}}},
+                        data:score6
+                    },
+                     {
+                        name: '商业设施',
+                        type: 'bar',
+                        smooth: true,
+//                        itemStyle: {normal: {areaStyle: {type: 'default'}}},
+                        data:score7
+                    },
+                     {
+                        name: '生活设施',
+                        type: 'bar',
+                        smooth: true,
+//                        itemStyle: {normal: {areaStyle: {type: 'default'}}},
+                        data:score8
+                    },
+                     {
+                        name: '运动',
+                        type: 'bar',
+                        smooth: true,
+//                        itemStyle: {normal: {areaStyle: {type: 'default'}}},
+                        data:score9
+                    },
+                     {
+                        name: '酒店',
+                        type: 'bar',
+                        smooth: true,
+//                        itemStyle: {normal: {areaStyle: {type: 'default'}}},
+                        data:score10
                     }
-
                 ]
             };
 
