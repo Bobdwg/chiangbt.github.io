@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bccbb55-d5e4-498b-aa1f-8546b834adfd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/echarts.html" afterPath="$PROJECT_DIR$/echarts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Landblock.html" afterPath="$PROJECT_DIR$/Landblock.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/score.csv" afterPath="$PROJECT_DIR$/data/score.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chiangbt.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385607791493" ignored="false" />
+    <file path="/Dummy.txt" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385631238277" ignored="false" />
     <file path="/index.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384777784916" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/data/dp/dp_comment_.dat" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384415743595" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/data/dp/dp_shops_美食.dat" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384415561940" ignored="false" />
@@ -16,8 +17,8 @@
     <file path="/LoadPointMap1.js" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384522927758" ignored="false" />
     <file path="/echarts.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385608100571" ignored="false" />
     <file path="/echarts.js" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385606507800" ignored="false" />
-    <file path="/Landblock.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385457556787" ignored="false" />
-    <file path="/README.md" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385459586544" ignored="false" />
+    <file path="/Landblock.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385631314390" ignored="false" />
+    <file path="/README.md" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385633257637" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/LeafletMap/lib/map/ESRIDynamicMap5.js" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385459341297" ignored="false" />
     <file path="/years.js" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385607287455" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/pythonTest.py" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385607295632" ignored="false" />
@@ -43,7 +44,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="16" selection-start="265" selection-end="265" vertical-scroll-proportion="-0.625">
+            <state line="6" column="16" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -67,10 +68,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="echarts.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="echarts.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/echarts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="17" selection-start="47" selection-end="47" vertical-scroll-proportion="0.11508951">
+            <state line="3" column="17" selection-start="47" selection-end="47" vertical-scroll-proportion="-1.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Landblock.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Landblock.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="34" selection-start="1156" selection-end="1312" vertical-scroll-proportion="-9.958333">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="838" selection-end="838" vertical-scroll-proportion="0.6115108">
               <folding />
             </state>
           </provider>
@@ -102,18 +121,18 @@
         <option value="$PROJECT_DIR$/LoadPointMap1.js" />
         <option value="$PROJECT_DIR$/echarts.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/Landblock.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/data/score.csv" />
         <option value="$PROJECT_DIR$/data/years.js" />
         <option value="$PROJECT_DIR$/appjs/echarts.js" />
         <option value="$PROJECT_DIR$/echarts.html" />
+        <option value="$PROJECT_DIR$/Landblock.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="105" />
-    <option name="y" value="22" />
+    <option name="x" value="29" />
+    <option name="y" value="86" />
     <option name="width" value="1420" />
     <option name="height" value="780" />
   </component>
@@ -201,8 +220,8 @@
     <property name="options.lastSelected" value="preferences.sourceCode.Python" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -370,7 +389,11 @@
       <created>1385607796717</created>
       <updated>1385607796717</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="test1">
+      <created>1385608107425</created>
+      <updated>1385608107425</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -394,15 +417,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="105" y="22" width="1420" height="780" extended-state="0" />
+    <frame x="29" y="86" width="1420" height="780" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287879" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32779455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33030304" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24910523" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1812227" sideWeight="0.67121214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07641921" sideWeight="0.67220545" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -412,6 +434,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -520,46 +543,32 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Landblock.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="52" selection-start="654" selection-end="654" vertical-scroll-proportion="-7.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/dp.dat">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="123" column="266" selection-start="62505" selection-end="62509" vertical-scroll-proportion="0.04" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/appjs/LoadPointMap1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="41" selection-start="657" selection-end="657" vertical-scroll-proportion="-2.060241">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="101" selection-start="377" selection-end="377" vertical-scroll-proportion="0.39759037" />
+        <state line="22" column="41" selection-start="657" selection-end="657" vertical-scroll-proportion="-2.060241" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="16" selection-start="265" selection-end="265" vertical-scroll-proportion="-0.625">
+        <state line="6" column="16" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/score.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="90" selection-start="11" selection-end="90" vertical-scroll-proportion="0.0" />
+      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="90" selection-start="11" selection-end="90" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/years.js">
@@ -578,7 +587,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/echarts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="47" selection-end="47" vertical-scroll-proportion="0.11508951">
+        <state line="3" column="17" selection-start="47" selection-end="47" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Landblock.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="34" selection-start="1156" selection-end="1312" vertical-scroll-proportion="-9.958333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="838" selection-end="838" vertical-scroll-proportion="0.6115108">
           <folding />
         </state>
       </provider>
