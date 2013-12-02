@@ -66,6 +66,11 @@
     var hereEle = L.tileLayer('http://1.maps.nlp.nokia.com.cn/maptile/2.1/maptile/933ee1206a/terrain.day/{z}/{x}/{y}/256/png8?lg=CHI&app_id=90oGXsXHT8IRMSt5D79X&token=JY0BReev8ax1gIrHZZoqIg&xnlp=CL_JSMv2.5.3.2', {
         attribution: 'Map &copy; Certain data &copy; <a href="http://openstreetmap.org">HERE</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
     });
+    var mapboxLayer1 = L.tileLayer('https://a.tiles.mapbox.com/v3/examples.bc17bb2a/{z}/{x}/{y}.png', {
+        attribution: 'Map &copy; Pacific Rim Coordination Center (PRCC).  Certain data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+        key: 'BC9A493B41014CAABB98F0471D759707',
+        styleId: 22677
+    });
     //    map.addLayer(baseLayer2);
     var baseMaps = {
         "Mapbox": baseLayer,
@@ -77,7 +82,8 @@
         '地震图':baseLayer4,
         '谷歌地图':baseLayer5,
         'Cloudmade':cloudLayer,
-        'OSM底图':osmLayer
+        'OSM底图':osmLayer,
+        'Mapbox1':mapboxLayer1
     };
     layersControl = new L.Control.Layers(baseMaps);
     var map = new L.Map('map', {center: [30.258 , 120.1556], zoom: 8, layers: [baseLayer5]});
