@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bccbb55-d5e4-498b-aa1f-8546b834adfd" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/default.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webcontent/DynamicEarthquake.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/leaflet-dvf/date.format.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/leaflet-dvf/leaflet.dvf.utils.js" afterPath="$PROJECT_DIR$/lib/leaflet-dvf/leaflet.dvf.utils.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/score.csv" afterPath="$PROJECT_DIR$/data/score.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chiangbt.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385956408793" ignored="false" />
-    <file path="/index.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384777784916" ignored="false" />
+    <file path="/Dummy.txt" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385956466225" ignored="false" />
+    <file path="/index.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385960452254" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/data/dp/dp_comment_.dat" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384415743595" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/data/dp/dp_shops_美食.dat" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384415561940" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/hmgis/InfoRetrieval/dianping/dianpingService2.py" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384414585340" ignored="false" />
@@ -22,6 +25,8 @@
     <file path="/years.js" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385607287455" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/pythonTest.py" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385607295632" ignored="false" />
     <file path="/default.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385955993613" ignored="false" />
+    <file path="/DynamicEarthquake.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385959924620" ignored="false" />
+    <file path="/leaflet.dvf.utils.js" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385960222856" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +46,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="0" selection-start="4477" selection-end="4477" vertical-scroll-proportion="0.070281126">
+            <state line="95" column="52" selection-start="4095" selection-end="4095" vertical-scroll-proportion="-15.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DynamicEarthquake.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="122" column="17" selection-start="5259" selection-end="5259" vertical-scroll-proportion="1.5257732">
               <folding />
             </state>
           </provider>
@@ -69,13 +83,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/MapDemo/index.html" />
-        <option value="$PROJECT_DIR$/data/testData.js" />
         <option value="$PROJECT_DIR$/lib/api.js" />
         <option value="$PROJECT_DIR$/dp.dat" />
         <option value="$PROJECT_DIR$/LoadPointMap1.js" />
         <option value="$PROJECT_DIR$/echarts.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/data/score.csv" />
         <option value="$PROJECT_DIR$/data/years.js" />
         <option value="$PROJECT_DIR$/appjs/echarts.js" />
@@ -85,12 +96,15 @@
         <option value="$PROJECT_DIR$/webcontent/Landblock.html" />
         <option value="$PROJECT_DIR$/webcontent/echarts.html" />
         <option value="$PROJECT_DIR$/default.html" />
+        <option value="$PROJECT_DIR$/webcontent/DynamicEarthquake.html" />
+        <option value="$PROJECT_DIR$/lib/leaflet-dvf/leaflet.dvf.utils.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="34" />
+    <option name="x" value="324" />
+    <option name="y" value="28" />
     <option name="width" value="1420" />
     <option name="height" value="780" />
   </component>
@@ -169,11 +183,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/leaflet-dvf" />
+      <recent name="$PROJECT_DIR$/webcontent" />
       <recent name="$PROJECT_DIR$/lib/dist/css" />
       <recent name="$PROJECT_DIR$/lib/dist" />
       <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$/data" />
-      <recent name="$PROJECT_DIR$/lib/echarts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/webcontent" />
@@ -350,7 +364,11 @@
       <created>1385956411360</created>
       <updated>1385956411360</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="test1">
+      <created>1385956468394</created>
+      <updated>1385956468394</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -374,15 +392,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="34" width="1420" height="780" extended-state="0" />
-    <editor active="false" />
+    <frame x="324" y="28" width="1420" height="780" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16666667" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33030304" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24910523" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20014556" sideWeight="0.8333333" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20014556" sideWeight="0.8333333" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -459,21 +477,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/echarts/echarts-map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="3" selection-start="799" selection-end="799" vertical-scroll-proportion="0.5072464" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/echarts/zrender/lib/excanvas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/dp.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state line="123" column="266" selection-start="62505" selection-end="62509" vertical-scroll-proportion="0.04" />
@@ -534,19 +537,42 @@
         <state line="17" column="37" selection-start="596" selection-end="596" vertical-scroll-proportion="0.5120482" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webcontent/Landblock.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="89" selection-start="2777" selection-end="2777" vertical-scroll-proportion="0.814433" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="102" selection-start="578" selection-end="664" vertical-scroll-proportion="0.41257367" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/leaflet-dvf/date.format.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcontent/Landblock.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="4" selection-start="62" selection-end="130" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/leaflet-dvf/leaflet.dvf.utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="644" column="41" selection-start="15053" selection-end="15053" vertical-scroll-proportion="0.6561886">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="0" selection-start="4477" selection-end="4477" vertical-scroll-proportion="0.070281126">
+        <state line="95" column="52" selection-start="4095" selection-end="4095" vertical-scroll-proportion="-15.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="17" selection-start="5259" selection-end="5259" vertical-scroll-proportion="1.5257732">
           <folding />
         </state>
       </provider>
