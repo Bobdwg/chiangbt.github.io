@@ -52,10 +52,22 @@
 				styleId : 997,
 				maxZoom : 19
 	});
+    var herenormalchn = L.tileLayer('http://1.maps.nlp.nokia.com.cn/maptile/2.1/maptile/933ee1206a/normal.day/{z}/{x}/{y}/256/png8?lg=CHI&app_id=90oGXsXHT8IRMSt5D79X&token=JY0BReev8ax1gIrHZZoqIg&xnlp=CL_JSMv2.5.3.2', {
+        attribution: 'Map &copy; Certain data &copy; <a href="http://openstreetmap.org">HERE</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+    });
+    var hereSat = L.tileLayer('http://1.maps.nlp.nokia.com.cn/maptile/2.1/maptile/933ee1206a/hybrid.day/{z}/{x}/{y}/256/png8?lg=CHI&app_id=90oGXsXHT8IRMSt5D79X&token=JY0BReev8ax1gIrHZZoqIg&xnlp=CL_JSMv2.5.3.2', {
+        attribution: 'Map &copy; Certain data &copy; <a href="http://openstreetmap.org">HERE</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+    });
+    var hereEle = L.tileLayer('http://1.maps.nlp.nokia.com.cn/maptile/2.1/maptile/933ee1206a/terrain.day/{z}/{x}/{y}/256/png8?lg=CHI&app_id=90oGXsXHT8IRMSt5D79X&token=JY0BReev8ax1gIrHZZoqIg&xnlp=CL_JSMv2.5.3.2', {
+        attribution: 'Map &copy; Certain data &copy; <a href="http://openstreetmap.org">HERE</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+    });
     //    map.addLayer(baseLayer2);
     var baseMaps = {
         "Mapbox": baseLayer,
         "Nokia HERE": baseLayer2,
+        'Nokia HERE中文':herenormalchn,
+        'Nokia HERE中文卫星':hereSat,
+        'Nokia HERE中文地形':hereEle,
         '高德地图':baseLayer3,
         '地震图':baseLayer4,
         '谷歌地图':baseLayer5,
