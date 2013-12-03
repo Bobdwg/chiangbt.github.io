@@ -69,16 +69,40 @@
         key: 'BC9A493B41014CAABB98F0471D759707',
         styleId: 22677
     });
+    var mapboxLayer8 = L.tileLayer('https://b.tiles.mapbox.com/v3/examples.map-3gisupiu/{z}/{x}/{y}.png', {
+        attribution: 'Map &copy; Pacific Rim Coordination Center (PRCC).  Certain data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+        key: 'BC9A493B41014CAABB98F0471D759707',
+        styleId: 22677
+    });
+    var mapboxLayer9 = L.tileLayer('https://d.tiles.mapbox.com/v3/financialtimes.map-w7l4lfi8/{z}/{x}/{y}.png', {
+        attribution: 'Map &copy; Pacific Rim Coordination Center (PRCC).  Certain data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+        key: 'BC9A493B41014CAABB98F0471D759707',
+        styleId: 22677
+    });
+    var githubLayer = L.tileLayer('https://c.tiles.mapbox.com/v3/github.map-xgq2svrz/{z}/{x}/{y}.png', {
+        attribution: 'Map &copy; Pacific Rim Coordination Center (PRCC).  Certain data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+        key: 'BC9A493B41014CAABB98F0471D759707',
+        styleId: 22677
+    });
+    var foursquareLayer = L.tileLayer('https://a.tiles.mapbox.com/v3/foursquare.map-0y1jh28j/{z}/{x}/{y}.png', {
+        attribution: 'Map &copy; Pacific Rim Coordination Center (PRCC).  Certain data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+        key: 'BC9A493B41014CAABB98F0471D759707',
+        styleId: 22677
+    });
     //    map.addLayer(baseLayer2);
     var baseMaps = {
-        "Mapbox": baseLayer,
-        'Mapbox1':mapboxLayer1,
-        'Mapbox3':mapboxLayer3,
-        'Mapbox4':mapboxLayer4,
-        'Mapbox5':mapboxLayer5,
-        'Mapbox6':mapboxLayer6,
-        'Mapbox7':mapboxLayer7,
-        'Mapbox2':mapboxLayer2
+        "灰度地图": baseLayer,
+        '游戏地图':mapboxLayer1,
+        '剪纸地图':mapboxLayer3,
+        '航海地图':mapboxLayer4,
+        '黑暗地图':mapboxLayer5,
+        '高清影像':mapboxLayer6,
+        '清爽地图':mapboxLayer7,
+        '绿色地图':mapboxLayer8,
+        '立体地图':mapboxLayer2,
+        '金融时报底图':mapboxLayer9,
+        'Github Map':githubLayer,
+        'Foursquare':foursquareLayer
     };
     layersControl = new L.Control.Layers(baseMaps);
     var map = new L.Map('map', {center: [30.258 , 120.1556], zoom: 8, layers: [mapboxLayer1]});
