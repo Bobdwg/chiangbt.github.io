@@ -28,6 +28,23 @@
     <![endif]-->
     <script src="lib/dist/jquery.js"></script>
     <script src="lib/dist/js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css"/>
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="lib/leaflet/leaflet.ie.css"/><![endif]-->
+    <script src="lib/leaflet/leaflet-0.6.2.js"></script>
+    <link rel="stylesheet" href="lib/leaflet/plugin/locatecontrol/L.Control.Locate.css" />
+    <script src="lib/leaflet/plugin/locatecontrol/L.Control.Locate.js"></script>
+    <style>
+        #map {
+            /*position: absolute;*/
+            /*top: 0;*/
+            left: 0;
+            right: 0;
+            /*bottom: 0;*/
+            height: 200px;
+        }
+    </style>
 </head>
 
 <body>
@@ -35,7 +52,8 @@
 <div class="container">
 
     <div class="masthead">
-        <h3 class="text-muted"><img src="QQ20131202-1.png" width="150px" height="50px">社会化地理信息资源可视化例子</h3>
+        <h3 class="text-muted">社会化地理信息资源可视化</h3>
+        <h4 class="text-muted">GeoData & Social Network & Leaflet|本站包含空间数据收集；社会化网络地理数据可视化；Leaflet可视化应用.</h4>
         <ul class="nav nav-justified">
             <li class="active"><a href="#">Home</a></li>
             <li class="dropdown">
@@ -63,10 +81,11 @@
         </ul>
     </div>
     <!-- Jumbotron -->
-    <div class="jumbotron">
-        <h2>GeoData & Social Network & Leaflet</h2>
 
-        <p class="lead">本站包含空间数据收集；社会化网络地理数据可视化；Leaflet可视化应用.</p>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div id='map'></div>
+        </div>
     </div>
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -103,8 +122,9 @@
             <p>展示USGS Earthquake RSS在1周内的地震数据.下面有两个例子，第一个使用本地文件；第二个直接访问USGS的数据，但github.io不允许跨域因此看不到效果</p>
 
             <p><a href="webcontent/DynamicEarthquake_1.html" class="btn btn-primary" href="#"
-                  role="button">本地可见 &raquo;</a>&raquo;<a href="webcontent/DynamicEarthquake.html" class="btn btn-primary" href="#"
-                  role="button">跨域不可见 &raquo;</a></p>
+                  role="button">本地可见 &raquo;</a>&raquo;<a href="webcontent/DynamicEarthquake.html"
+                                                          class="btn btn-primary" href="#"
+                                                          role="button">跨域不可见 &raquo;</a></p>
         </div>
         <div class="col-lg-4">
             <h2>USGS地震信息可视化2</h2>
@@ -112,8 +132,9 @@
             <p>展示USGS Earthquake RSS在1周内的地震数据..下面有两个例子，第一个使用本地文件；第二个直接访问USGS的数据，但github.io不允许跨域因此看不到效果</p>
 
             <p><a href="webcontent/DynamicEarthquake2_1.html" class="btn btn-primary" href="#"
-                  role="button">本地可见 &raquo;</a>&raquo;<a href="webcontent/DynamicEarthquake2.html" class="btn btn-primary" href="#"
-                  role="button">跨域不可见 &raquo;</a></p>
+                  role="button">本地可见 &raquo;</a>&raquo;<a href="webcontent/DynamicEarthquake2.html"
+                                                          class="btn btn-primary" href="#"
+                                                          role="button">跨域不可见 &raquo;</a></p>
         </div>
     </div>
     <div class="row">
@@ -136,7 +157,8 @@
 
             <p>这是在web上找到的一个使用D3.js来开发的动态时序可视化例子，看完后，对于一般点要素的动态可视化有思路了.</p>
 
-            <p><a class="btn btn-primary" href="webcontent/phillyBikeThefts/index.html" role="button">View details &raquo;</a></p>
+            <p><a class="btn btn-primary" href="webcontent/phillyBikeThefts/index.html" role="button">View
+                details &raquo;</a></p>
         </div>
     </div>
     <div class="row">
@@ -159,9 +181,11 @@
 
             <p>XXX.</p>
 
-            <p><a class="btn btn-primary" href="webcontent/phillyBikeThefts/index.html" role="button">View details &raquo;</a></p>
+            <p><a class="btn btn-primary" href="webcontent/phillyBikeThefts/index.html" role="button">View
+                details &raquo;</a></p>
         </div>
     </div>
+
     <!-- /.modal -->
     <!-- Site footer -->
     <div class="footer">
@@ -170,7 +194,18 @@
 
 </div>
 <script>
-    $('#myModal').modal(options)
+    //    $('#myModal').modal(options)
+
+    var map = new L.Map('map', {center: [29.888 , 121.5666], zoom: 10});
+    var mapboxLayer4 = L.tileLayer('https://d.tiles.mapbox.com/v3/examples.a3cad6da/{z}/{x}/{y}.png', {
+        key: 'BC9A493B41014CAABB98F0471D759707',
+        styleId: 22677
+    });
+    lc = L.control.locate({
+        follow: true,
+        stopFollowingOnDrag: true
+    }).addTo(map);
+    map.addLayer(mapboxLayer4);
 </script>
 </body>
 </html>
