@@ -33,12 +33,12 @@
     <!--[if lte IE 8]>
     <link rel="stylesheet" href="lib/leaflet/leaflet.ie.css"/><![endif]-->
     <script src="lib/leaflet/leaflet-0.6.2.js"></script>
-    <link rel="stylesheet" href="lib/leaflet/plugin/locatecontrol/L.Control.Locate.css" />
+    <link rel="stylesheet" href="lib/leaflet/plugin/locatecontrol/L.Control.Locate.css"/>
     <script src="lib/leaflet/plugin/locatecontrol/L.Control.Locate.js"></script>
     <style>
         #map {
             /*position: absolute;*/
-            /*top: 0;*/
+            /*top: 200px;*/
             left: 0;
             right: 0;
             /*bottom: 0;*/
@@ -48,40 +48,54 @@
 </head>
 
 <body>
-
-<div class="container">
-
-    <div class="masthead">
-        <h3 class="text-muted">社会化地理信息资源可视化</h3>
-        <h4 class="text-muted">GeoData & Social Network & Leaflet|本站包含空间数据收集；社会化网络地理数据可视化；Leaflet可视化应用.</h4>
-        <ul class="nav nav-justified">
-            <li class="active"><a href="#">Home</a></li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">项目 <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                    <li><a href="https://github.com/chiangbt/MLinaction">机器学习实践</a></li>
-                    <li><a href="https://github.com/chiangbt/NLP_TopicModel">主题模型</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                </ul>
-            </li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">数据 <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                    <li><a href="http://extract.bbbike.org">OSM数据抽取</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                </ul>
-            </li>
-            <li><a href="webcontent/Mapboxmap.html">Mapbox底图欣赏</a></li>
-            <li><a href="webcontent/echarts.html">EChart例子</a></li>
-            <li><a href="#" data-toggle="modal" data-target="#myModal">联系作者</a></li>
-        </ul>
+<div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">社会化地理信息资源可视化</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">项目 <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://github.com/chiangbt/MLinaction">机器学习实践</a></li>
+                        <li><a href="https://github.com/chiangbt/NLP_TopicModel">主题模型</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">数据 <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://extract.bbbike.org">OSM数据抽取</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </li>
+                <li><a href="webcontent/Mapboxmap.html">Mapbox底图欣赏</a></li>
+                <li><a href="webcontent/echarts.html">EChart例子</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#myModal">联系作者</a></li>
+            </ul>
+        </div>
+        <!-- /.nav-collapse -->
     </div>
-    <!-- Jumbotron -->
+    <!-- /.container -->
+</div>
+<div class="page-header">
 
+</div>
+<!-- /.navbar -->
+<div class="container">
+    <div class="row row-offcanvas row-offcanvas-right">
     <div class="panel panel-default">
         <div class="panel-body">
             <div id='map'></div>
@@ -185,7 +199,6 @@
                 details &raquo;</a></p>
         </div>
     </div>
-
     <!-- /.modal -->
     <!-- Site footer -->
     <div class="footer">
@@ -193,6 +206,7 @@
     </div>
 
 </div>
+    </div>
 <script>
     //    $('#myModal').modal(options)
 
