@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bccbb55-d5e4-498b-aa1f-8546b834adfd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webcontent/DynamicEarthquake2_1.html" afterPath="$PROJECT_DIR$/webcontent/DynamicEarthquake2_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webcontent/DynamicEarthquake_1.html" afterPath="$PROJECT_DIR$/webcontent/DynamicEarthquake_1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="1f962a94-bd0b-44b6-9553-1cab81eee912" name="Failed commit: Default" comment="test1">
@@ -9,7 +11,7 @@
     </list>
     <ignored path="chiangbt.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386218351274" ignored="false" />
+    <file path="/Dummy.txt" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386218498090" ignored="false" />
     <file path="/index.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386166314818" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/data/dp/dp_comment_.dat" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384415743595" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/data/dp/dp_shops_美食.dat" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384415561940" ignored="false" />
@@ -28,8 +30,8 @@
     <file path="/DynamicEarthquake2.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385965784882" ignored="false" />
     <file path="/api.js" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385961636265" ignored="false" />
     <file path="/earthquake.js" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386218344528" ignored="false" />
-    <file path="/DynamicEarthquake_1.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385966458006" ignored="false" />
-    <file path="/DynamicEarthquake2_1.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385966636315" ignored="false" />
+    <file path="/DynamicEarthquake_1.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386218817142" ignored="false" />
+    <file path="/DynamicEarthquake2_1.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386218653303" ignored="false" />
     <file path="/Tianditu.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385972054490" ignored="false" />
     <file path="/mapswipe.js" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385972501004" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/LeafletMap/lib/map/mapswipe.js" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385972503541" ignored="false" />
@@ -67,31 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="earthquake.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/earthquake.js">
+      <file leaf-file-name="DynamicEarthquake_1.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake_1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="earthquake.geojson" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/earthquake.geojson">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1266" column="811" selection-start="946850" selection-end="946850" vertical-scroll-proportion="34.277977">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="police_districts.geojson" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/police_districts.geojson">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="6" column="22" selection-start="227" selection-end="227" vertical-scroll-proportion="0.13464992">
               <folding />
             </state>
           </provider>
@@ -121,7 +102,6 @@
         <option value="$PROJECT_DIR$/lib/api.js" />
         <option value="$PROJECT_DIR$/webcontent/DynamicEarthquake.html" />
         <option value="$PROJECT_DIR$/webcontent/DynamicEarthquake2.html" />
-        <option value="$PROJECT_DIR$/webcontent/DynamicEarthquake2_1.html" />
         <option value="$PROJECT_DIR$/webcontent/Tianditu.html" />
         <option value="$PROJECT_DIR$/webcontent/Tianditu2.html" />
         <option value="$PROJECT_DIR$/webcontent/Landblock.html" />
@@ -130,8 +110,9 @@
         <option value="$PROJECT_DIR$/lib/leaflet/plugin/esri/demo.css" />
         <option value="$PROJECT_DIR$/index2.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/webcontent/DynamicEarthquake_1.html" />
         <option value="$PROJECT_DIR$/data/earthquake.js" />
+        <option value="$PROJECT_DIR$/webcontent/DynamicEarthquake2_1.html" />
+        <option value="$PROJECT_DIR$/webcontent/DynamicEarthquake_1.html" />
       </list>
     </option>
   </component>
@@ -532,7 +513,11 @@
       <created>1386218353483</created>
       <updated>1386218353484</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="test2">
+      <created>1386218499716</created>
+      <updated>1386218499716</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -642,11 +627,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webcontent/Tianditu2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="47" selection-start="236" selection-end="275" vertical-scroll-proportion="0.0" />
@@ -692,17 +672,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="63" selection-start="1176" selection-end="1176" vertical-scroll-proportion="-12.5" />
+        <state line="20" column="63" selection-start="1176" selection-end="1176" vertical-scroll-proportion="-12.5">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="0" selection-end="5641" vertical-scroll-proportion="56.708332" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="25" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.026833631">
+        <state line="16" column="11" selection-start="0" selection-end="5641" vertical-scroll-proportion="56.708332">
           <folding />
         </state>
       </provider>
@@ -714,16 +691,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/earthquake.js">
+    <entry file="file://$PROJECT_DIR$/data/police_districts.geojson">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/police_districts.geojson">
+    <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake2_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="22" column="38" selection-start="1308" selection-end="1308" vertical-scroll-proportion="-0.40394974">
           <folding />
         </state>
       </provider>
@@ -736,6 +713,20 @@
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/earthquake.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="227" selection-end="227" vertical-scroll-proportion="0.13464992">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
