@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bccbb55-d5e4-498b-aa1f-8546b834adfd" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/QQ20131202-1.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/earthquake.js" afterPath="$PROJECT_DIR$/data/earthquake.geojson" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webcontent/DynamicEarthquake2_1.html" afterPath="$PROJECT_DIR$/webcontent/DynamicEarthquake2_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webcontent/DynamicEarthquake_1.html" afterPath="$PROJECT_DIR$/webcontent/DynamicEarthquake_1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -10,7 +14,7 @@
     </list>
     <ignored path="chiangbt.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386165815454" ignored="false" />
+    <file path="/Dummy.txt" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386204258626" ignored="false" />
     <file path="/index.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386166314818" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/data/dp/dp_comment_.dat" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384415743595" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/data/dp/dp_shops_美食.dat" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384415561940" ignored="false" />
@@ -58,34 +62,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="0" selection-start="4053" selection-end="4053" vertical-scroll-proportion="0.37237763">
-              <folding>
-                <element signature="tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#2;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#3;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#4;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#5;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Landblock.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webcontent/Landblock.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="581" selection-end="601" vertical-scroll-proportion="0.0">
+            <state line="179" column="0" selection-start="7860" selection-end="7860" vertical-scroll-proportion="-5.7083335">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mapboxmap.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webcontent/Mapboxmap.html">
+      <file leaf-file-name="DynamicEarthquake_1.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake_1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="2336" selection-end="2752" vertical-scroll-proportion="0.0">
+            <state line="44" column="25" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.3488372">
               <folding />
             </state>
           </provider>
@@ -113,10 +102,8 @@
         <option value="$PROJECT_DIR$/default.html" />
         <option value="$PROJECT_DIR$/lib/leaflet-dvf/leaflet.dvf.utils.js" />
         <option value="$PROJECT_DIR$/lib/api.js" />
-        <option value="$PROJECT_DIR$/data/earthquake.js" />
         <option value="$PROJECT_DIR$/webcontent/DynamicEarthquake.html" />
         <option value="$PROJECT_DIR$/webcontent/DynamicEarthquake2.html" />
-        <option value="$PROJECT_DIR$/webcontent/DynamicEarthquake_1.html" />
         <option value="$PROJECT_DIR$/webcontent/DynamicEarthquake2_1.html" />
         <option value="$PROJECT_DIR$/webcontent/Tianditu.html" />
         <option value="$PROJECT_DIR$/webcontent/Tianditu2.html" />
@@ -126,12 +113,14 @@
         <option value="$PROJECT_DIR$/lib/leaflet/plugin/esri/demo.css" />
         <option value="$PROJECT_DIR$/index2.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/data/earthquake.js" />
+        <option value="$PROJECT_DIR$/webcontent/DynamicEarthquake_1.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="28" />
-    <option name="y" value="67" />
+    <option name="x" value="25" />
+    <option name="y" value="31" />
     <option name="width" value="1420" />
     <option name="height" value="742" />
   </component>
@@ -161,7 +150,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,8 +182,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chiangbt.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chiangbt.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,8 +208,8 @@
     <property name="options.lastSelected" value="preferences.sourceCode.Python" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -500,7 +503,11 @@
       <created>1386151342537</created>
       <updated>1386151342537</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="test2">
+      <created>1386166814057</created>
+      <updated>1386166814057</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -524,14 +531,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="67" width="1420" height="742" extended-state="0" />
+    <frame x="25" y="31" width="1420" height="742" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17684887" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33030304" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24910523" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23653567" sideWeight="0.670418" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24017467" sideWeight="0.670418" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -610,16 +617,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="63" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="61" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake2_1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="72" column="0" selection-start="2853" selection-end="2853" vertical-scroll-proportion="0.026845638" />
@@ -653,11 +650,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="49" selection-start="906" selection-end="906" vertical-scroll-proportion="0.026833631" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webcontent/Tianditu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="4" selection-start="1924" selection-end="2011" vertical-scroll-proportion="0.7368421" />
@@ -689,14 +681,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="0" selection-start="4053" selection-end="4053" vertical-scroll-proportion="0.37237763">
+        <state line="179" column="0" selection-start="7860" selection-end="7860" vertical-scroll-proportion="-5.7083335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="63" selection-start="1176" selection-end="1176" vertical-scroll-proportion="-12.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="11" selection-start="0" selection-end="5641" vertical-scroll-proportion="56.708332">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/earthquake.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-31.753002">
           <folding>
-            <element signature="tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#3;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#4;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#5;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <marker date="1386205405000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1386205405000" expanded="true" signature="-1:-1" placeholder="[...]" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="25" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.3488372">
+          <folding />
         </state>
       </provider>
     </entry>
