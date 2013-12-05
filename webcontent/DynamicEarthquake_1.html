@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../lib/leaflet-dvf/dist/css/dvf.css"/>
     <script type="text/javascript" src="../lib/ext/ext-all.js"></script>
     <script type="text/javascript" src="../lib/jquery/jquery-1.9.1.min.js"></script>
-    <script src="../lib/leaflet/leaflet.js"></script>
+    <script src="../lib/leaflet/leaflet-0.6.2.js"></script>
     <script src="../lib/leaflet-dvf/dist/leaflet-dvf.js"></script>
     <script src="../lib/leaflet-dvf/leaflet.dvf.utils.js"></script>
     <script src="../lib/leaflet-dvf/leaflet.dvf.markers.js"></script>
@@ -38,13 +38,10 @@
 <script>
     Ext.Ajax.disableCaching = false;
     map = L.map('map').setView([0.0, 0.0], 2);
-
-    // Add a CloudMade tile layer with style #999
     var baseLayer = L.tileLayer('http://{s}.tiles.mapbox.com/v3/bclc-apec.map-rslgvy56/{z}/{x}/{y}.png', {
-        attribution: 'Map &copy; Pacific Rim Coordination Center (PRCC).  Certain data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">USGS</a>'
+        attribution: 'Map &copy; Certain data &copy; <a href="http://openstreetmap.org">HERE</a> contributors, 高德</a>'
     });
-
-
+    map.addLayer(baseLayer)
     var data = earthquake;
 
     var magnitudeColorFunction = new L.HSLHueFunction(new L.Point(0, 90), new L.Point(10, 0), {
@@ -57,19 +54,6 @@
     });
     var magnitudeRadiusFunction = new L.LinearFunction(new L.Point(0, 5), new L.Point(10, 25));
 
-    // Color scale - white to orange to red using a PiecewiseFunction
-    // NOTE:  Uncomment these lines to see the difference
-    /*
-     var magnitudeColorFunction = new L.PiecewiseFunction([
-     new L.HSLLuminosityFunction(new L.Point(0,0.8), new L.Point(4,0.3), {outputSaturation: '100%', outputHue: 30}),
-     new L.HSLHueFunction(new L.Point(4,30), new L.Point(10,0), {outputLuminosity: '30%'})
-     ]);
-
-     var magnitudeFillColorFunction = new L.PiecewiseFunction([
-     new L.HSLLuminosityFunction(new L.Point(0,1), new L.Point(4,0.5), {outputSaturation: '100%', outputHue: 30}),
-     new L.HSLHueFunction(new L.Point(4,30), new L.Point(10,0))
-     ]);
-     */
 
     var now = Math.round((new Date()).getTime());
     var start = now - 86400000;
@@ -120,7 +104,7 @@
             });
         }
     });
-    // Add the data layer to the map
+//    Add the data layer to the map
     map.addLayer(dataLayer);
     lastLayer = dataLayer;
 

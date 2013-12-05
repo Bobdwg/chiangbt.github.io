@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bccbb55-d5e4-498b-aa1f-8546b834adfd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webcontent/DynamicEarthquake2_1.html" afterPath="$PROJECT_DIR$/webcontent/DynamicEarthquake2_1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webcontent/CityResource.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/decaycity.geojson" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/resourcecity.geojson" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webcontent/DynamicEarthquake_1.html" afterPath="$PROJECT_DIR$/webcontent/DynamicEarthquake_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/heatmap/QuadTree.js" afterPath="$PROJECT_DIR$/lib/heatmap/QuadTree.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/heatmap/heatmap-arcgis.js" afterPath="$PROJECT_DIR$/lib/heatmap/heatmap-arcgis.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/heatmap/heatmap-gmaps.js" afterPath="$PROJECT_DIR$/lib/heatmap/heatmap-gmaps.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/heatmap/heatmap-leaflet.js" afterPath="$PROJECT_DIR$/lib/heatmap/heatmap-leaflet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/heatmap/heatmap-openlayers-renderer.js" afterPath="$PROJECT_DIR$/lib/heatmap/heatmap-openlayers-renderer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/heatmap/heatmap-openlayers.js" afterPath="$PROJECT_DIR$/lib/heatmap/heatmap-openlayers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/heatmap/heatmap.js" afterPath="$PROJECT_DIR$/lib/heatmap/heatmap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="1f962a94-bd0b-44b6-9553-1cab81eee912" name="Failed commit: Default" comment="test1">
@@ -11,8 +21,8 @@
     </list>
     <ignored path="chiangbt.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386218498090" ignored="false" />
-    <file path="/index.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386166314818" ignored="false" />
+    <file path="/Dummy.txt" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386251939963" ignored="false" />
+    <file path="/index.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386255152438" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/data/dp/dp_comment_.dat" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384415743595" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/data/dp/dp_shops_美食.dat" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384415561940" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/hmgis/InfoRetrieval/dianping/dianpingService2.py" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384414585340" ignored="false" />
@@ -30,7 +40,7 @@
     <file path="/DynamicEarthquake2.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385965784882" ignored="false" />
     <file path="/api.js" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385961636265" ignored="false" />
     <file path="/earthquake.js" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386218344528" ignored="false" />
-    <file path="/DynamicEarthquake_1.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386218817142" ignored="false" />
+    <file path="/DynamicEarthquake_1.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386220020505" ignored="false" />
     <file path="/DynamicEarthquake2_1.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386218653303" ignored="false" />
     <file path="/Tianditu.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385972054490" ignored="false" />
     <file path="/mapswipe.js" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1385972501004" ignored="false" />
@@ -41,6 +51,10 @@
     <file path="/EsriDemo.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386135977997" ignored="false" />
     <file path="/demo.css" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386135961179" ignored="false" />
     <file path="/earthquake.geojson" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386218484443" ignored="false" />
+    <file path="$PROJECT_DIR$/webcontent/social-media-map/js/application/main.js" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386220182442" ignored="false" />
+    <file path="/resourcecity.geojson" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386252190435" ignored="false" />
+    <file path="/CityResource.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386255110134" ignored="false" />
+    <file path="/a.dummy" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386252692261" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,16 +77,34 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="179" column="0" selection-start="7860" selection-end="7860" vertical-scroll-proportion="-0.625">
+            <state line="190" column="75" selection-start="8297" selection-end="8297" vertical-scroll-proportion="-11.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DynamicEarthquake_1.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake_1.html">
+      <file leaf-file-name="resourcecity.geojson" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/resourcecity.geojson">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="227" selection-end="227" vertical-scroll-proportion="0.13464992">
+            <state line="0" column="240" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decaycity.geojson" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/decaycity.geojson">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CityResource.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webcontent/CityResource.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="4" selection-start="1505" selection-end="1505" vertical-scroll-proportion="0.51166964">
               <folding />
             </state>
           </provider>
@@ -97,9 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/default.html" />
-        <option value="$PROJECT_DIR$/lib/leaflet-dvf/leaflet.dvf.utils.js" />
-        <option value="$PROJECT_DIR$/lib/api.js" />
         <option value="$PROJECT_DIR$/webcontent/DynamicEarthquake.html" />
         <option value="$PROJECT_DIR$/webcontent/DynamicEarthquake2.html" />
         <option value="$PROJECT_DIR$/webcontent/Tianditu.html" />
@@ -109,16 +138,19 @@
         <option value="$PROJECT_DIR$/webcontent/EsriDemo.html" />
         <option value="$PROJECT_DIR$/lib/leaflet/plugin/esri/demo.css" />
         <option value="$PROJECT_DIR$/index2.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/data/earthquake.js" />
         <option value="$PROJECT_DIR$/webcontent/DynamicEarthquake2_1.html" />
         <option value="$PROJECT_DIR$/webcontent/DynamicEarthquake_1.html" />
+        <option value="$PROJECT_DIR$/webcontent/social-media-map/index.html" />
+        <option value="$PROJECT_DIR$/data/resourcecity.geojson" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/webcontent/CityResource.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="31" />
+    <option name="x" value="3" />
+    <option name="y" value="66" />
     <option name="width" value="1420" />
     <option name="height" value="742" />
   </component>
@@ -191,6 +223,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chiangbt.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chiangbt.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -218,8 +264,8 @@
       <recent name="$PROJECT_DIR$/lib/dist" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/webcontent" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lib/dist/css" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/appjs" />
@@ -517,7 +563,11 @@
       <created>1386218499716</created>
       <updated>1386218499716</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="test2">
+      <created>1386219168660</created>
+      <updated>1386219168660</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -541,15 +591,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="31" width="1420" height="742" extended-state="0" />
+    <frame x="3" y="66" width="1420" height="742" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17684887" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33030304" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24910523" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24381368" sideWeight="0.670418" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2489083" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.670418" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -559,6 +608,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -627,104 +677,124 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="47" selection-start="236" selection-end="275" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/score.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="0" selection-start="10586" selection-end="10586" vertical-scroll-proportion="0.7513812" />
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webcontent/phillyBikeThefts/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webcontent/Tianditu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="4" selection-start="1924" selection-end="2011" vertical-scroll-proportion="0.7368421" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/leaflet/plugin/esri/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="10" selection-start="1996" selection-end="1996" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webcontent/EsriDemo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="35" selection-start="2608" selection-end="2608" vertical-scroll-proportion="0.5" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webcontent/Mapboxmap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="2336" selection-end="2752" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webcontent/Landblock.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="581" selection-end="601" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="63" selection-start="1176" selection-end="1176" vertical-scroll-proportion="-12.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="0" selection-end="5641" vertical-scroll-proportion="56.708332">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="0" selection-start="7860" selection-end="7860" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/police_districts.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake2_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="38" selection-start="1308" selection-end="1308" vertical-scroll-proportion="-0.40394974">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/earthquake.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1266" column="811" selection-start="946850" selection-end="946850" vertical-scroll-proportion="34.277977">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/earthquake.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
+        <state line="5" column="36" selection-start="175" selection-end="175" vertical-scroll-proportion="0.13416816">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="227" selection-end="227" vertical-scroll-proportion="0.13464992">
+        <state line="15" column="69" selection-start="805" selection-end="805" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake2_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="38" selection-start="0" selection-end="3460" vertical-scroll-proportion="21.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/leaflet/plugin/heatmap/heatmap-leaflet2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="20" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.33333334">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/leaflet/plugin/heatmap/heatmap-leaflet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="11" selection-start="1212" selection-end="1219" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/leaflet/plugin/heatmap/heatmap2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="13" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.33333334">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1379168968000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1379168968000" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/leaflet/plugin/heatmap/heatmap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="142" column="8" selection-start="5212" selection-end="5212" vertical-scroll-proportion="0.33333334">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/heatmap/heatmap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="17" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/ECMAScript.js2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="29" selection-start="914" selection-end="914" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/heatmap/heatmap-leaflet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="8" selection-start="3159" selection-end="3159" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="190" column="75" selection-start="8297" selection-end="8297" vertical-scroll-proportion="-11.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/resourcecity.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="240" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/decaycity.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcontent/Landblock.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="2787" selection-end="3195" vertical-scroll-proportion="0.29982045">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="17" selection-end="343" vertical-scroll-proportion="0.05050505">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcontent/CityResource.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="4" selection-start="1505" selection-end="1505" vertical-scroll-proportion="0.51166964">
           <folding />
         </state>
       </provider>
