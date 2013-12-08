@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bccbb55-d5e4-498b-aa1f-8546b834adfd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webcontent/ChinaPM25.html" afterPath="$PROJECT_DIR$/webcontent/ChinaPM25.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webcontent/ChinaPM252.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/pm252.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="1f962a94-bd0b-44b6-9553-1cab81eee912" name="Failed commit: Default" comment="test1">
@@ -10,7 +11,7 @@
     </list>
     <ignored path="chiangbt.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386342958387" ignored="false" />
+    <file path="/Dummy.txt" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386506435996" ignored="false" />
     <file path="/index.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386341737377" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/data/dp/dp_comment_.dat" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384415743595" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/MLinaction/data/dp/dp_shops_美食.dat" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1384415561940" ignored="false" />
@@ -55,6 +56,8 @@
     <file path="$USER_HOME$/PycharmProjects/NLP_TopicModel/data/pm25.js" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386340110773" ignored="false" />
     <file path="/pm25.js" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386340261777" ignored="false" />
     <file path="/ChinaPM25.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386341557208" ignored="false" />
+    <file path="/ChinaPM25Dynamic.html" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386407715175" ignored="false" />
+    <file path="/pm252.js" changelist="5bccbb55-d5e4-498b-aa1f-8546b834adfd" time="1386507039389" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,19 +77,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="202" column="72" selection-start="8735" selection-end="8735" vertical-scroll-proportion="-0.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChinaPM25.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webcontent/ChinaPM25.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="86" selection-start="5255" selection-end="5255" vertical-scroll-proportion="0.53667265">
+            <state line="196" column="32" selection-start="8479" selection-end="8491" vertical-scroll-proportion="0.13416816">
               <folding />
             </state>
           </provider>
@@ -111,10 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/webcontent/Tianditu.html" />
-        <option value="$PROJECT_DIR$/webcontent/Tianditu2.html" />
-        <option value="$PROJECT_DIR$/webcontent/Landblock.html" />
-        <option value="$PROJECT_DIR$/webcontent/Mapboxmap.html" />
         <option value="$PROJECT_DIR$/webcontent/EsriDemo.html" />
         <option value="$PROJECT_DIR$/lib/leaflet/plugin/esri/demo.css" />
         <option value="$PROJECT_DIR$/index2.html" />
@@ -127,12 +117,16 @@
         <option value="$PROJECT_DIR$/data/pm25.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/webcontent/ChinaPM25.html" />
+        <option value="$PROJECT_DIR$/webcontent/ChinaPM25dynamic.html" />
+        <option value="$PROJECT_DIR$/webcontent/ChinaPM25Dynamic.html" />
+        <option value="$PROJECT_DIR$/data/pm252.js" />
+        <option value="$PROJECT_DIR$/webcontent/ChinaPM252.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="75" />
+    <option name="x" value="82" />
+    <option name="y" value="44" />
     <option name="width" value="1420" />
     <option name="height" value="742" />
   </component>
@@ -162,6 +156,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,9 +189,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chiangbt.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chiangbt.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,8 +214,8 @@
     <property name="options.lastSelected" value="preferences.sourceCode.Python" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -529,7 +537,11 @@
       <created>1386341749426</created>
       <updated>1386341749427</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="test2">
+      <created>1386342984923</created>
+      <updated>1386342984923</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -553,14 +565,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="75" width="1420" height="742" extended-state="0" />
+    <frame x="82" y="44" width="1420" height="742" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17684887" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33030304" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2489083" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2569141" sideWeight="0.670418" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26855895" sideWeight="0.670418" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -639,26 +651,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/leaflet/plugin/heatmap/heatmap-leaflet2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="20" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/leaflet/plugin/heatmap/heatmap-leaflet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="11" selection-start="1212" selection-end="1219" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/leaflet/plugin/heatmap/heatmap2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="13" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/leaflet/plugin/heatmap/heatmap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="8" selection-start="5212" selection-end="5212" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/heatmap/heatmap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="17" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0" />
@@ -699,28 +691,52 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webcontent/CityResource.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="4" selection-start="1505" selection-end="1505" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/pm25.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="6576" selection-start="6568" selection-end="6576" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/webcontent/CityResource.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="202" column="72" selection-start="8735" selection-end="8735" vertical-scroll-proportion="-0.625">
+        <state line="27" column="4" selection-start="1505" selection-end="1505" vertical-scroll-proportion="-1.8443649" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake2_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="72" selection-start="412" selection-end="480" vertical-scroll-proportion="-0.8783542" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcontent/DynamicEarthquake2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="18" selection-start="3130" selection-end="3130" vertical-scroll-proportion="0.19499105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/pm252.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcontent/ChinaPM252.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="22" selection-start="4457" selection-end="4457" vertical-scroll-proportion="0.007155635">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webcontent/ChinaPM25.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="86" selection-start="5255" selection-end="5255" vertical-scroll-proportion="0.53667265">
+        <state line="112" column="25" selection-start="4483" selection-end="4483" vertical-scroll-proportion="0.49910554">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="196" column="32" selection-start="8479" selection-end="8491" vertical-scroll-proportion="0.13416816">
           <folding />
         </state>
       </provider>
